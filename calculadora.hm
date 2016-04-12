@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head>
+<title>Ejemplo</title><meta charset="utf-8">
+<script type="text/javascript">
+
+function vaciar () {
+     document.getElementById("n1").value = "";
+     num.value = Math.sqrt(num.value);
+}
+</script>
+</head>
+<body>
+    Numero:
+    <input type="text" id="n1" onclick="vaciar()"><p>
+    <buttn onclick="sqrt()"> sqrt(x) </button>
+</body>
+</html>
